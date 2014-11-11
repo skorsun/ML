@@ -27,9 +27,13 @@ import pandas as pd
 import logging
 logging.basicConfig(format = u'[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s', level = logging.NOTSET)
 """
-This data represents almost a million insurance records and the task is to predict a transformed ratio of loss to total insured value (called "target" within the data set). The provided features contain policy characteristics, information on crime rate, geodemographics, and weather.
+This data represents almost a million insurance records and the task is to
+ predict a transformed ratio of loss to total insured value
+ (called "target" within the data set). The provided features contain
+ policy characteristics, information on crime rate, geodemographics, and weather.
 
-The train and test sets are split randomly. For each id in the test set, you must predict the target using the provided features.
+The train and test sets are split randomly. For each id in the test set,
+ you must predict the target using the provided features.
 Download data file from
 https://www.kaggle.com/c/liberty-mutual-fire-peril/data
 """
